@@ -36,8 +36,5 @@ Contributions are welcome! If you have any suggestions, improvements, or bug fix
 License
 This project is licensed under the MIT License.
 
-Contact
-If you have any questions or want to get in touch, you can reach me at your-email@example.com.
-
 Thank you for visiting my personal music page! I hope you enjoy exploring my music collection. Feel free to provide feedback or suggestions. Happy listening!
 
