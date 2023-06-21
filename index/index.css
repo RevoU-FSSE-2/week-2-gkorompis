@@ -96,6 +96,7 @@ nav > div {
 @media only screen and (max-width: 110vh) {
     .burger{
         display: block;
+        background-color: aqua;
     }
     nav {
         /* background-color: #2E4F4F; */
