@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index/index.css">
+    <link rel="stylesheet" href="./store/store.css">
     <title>2 AM Strums</title>
 </head>
 <body>
@@ -36,38 +36,99 @@
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </section>
         <section class="grid_n2">
-            <section class="updates">
-                <h2>Merchandise</h2>
-                <section class="update">
-                    <figure>
+            <section class="forms">
+                <h2>Sign Up</h2>
+                <section class="form">
+                    <!-- <figure>
                         <img src="./assets/icon1.png">
-                    </figure>
+                    </figure> -->
                     <article>
-                        <h3>Discography</h3>
-                        <p>Get list of full artist's discography here.</p>
+                        <!-- <h3>Discography</h3> -->
+                        <form onsubmit="formHandler(event)">
+                            <input class="form-signup-text" type="text" id="form-signup-fullname" name="firstname" placeholder=" ">
+                            <label for="fname">Full Name</label>
+                            
+                            <input class="form-signup-text"  type="email" id="form-signup-email" name="lastname" placeholder=" ">
+                            <label for="lname">Email</label>
+                            <div>
+                            <br />
+                            <label  for="region">Location Region</label>
+                                <select id="form-signup-region" name="region">
+                                    <option disabled selected value><p id="optiontext">-- select an option --</p> </option>
+                                    <option class="form-signup-option" value="australia">Australia</option>
+                                    <option class="form-signup-option" value="asia">Asia</option>
+                                    <option class="form-signup-option" value="africa">Africa</option>
+                                    <option class="form-signup-option" value="europe">Europe</option>
+                                    <option class="form-signup-option" value="america">America</option>
+                                </select>
+                            </div>
+                            <br/>
+                            <label>Verified by:</label>
+                            <div class="radios">
+                                <div class="default">
+                                    <input class="form-signup-radio"  id="isVerificationByEmail" type="radio" name="verifiedBy">
+                                    <label for="isVerificationByEmail">Email</label>     
+                                </div>
+                                <div class="default">
+                                    <input class="form-signup-radio"  id="isVerificationByPhone" type="radio" name="verifiedBy">
+                                    <label for="isVerificationByPhone">Phone</label>
+                                </div>
+                            </div>
+                            <br />
+                            <label for="feedback">Describe yourself</label>
+                            <textarea id="feedback"></textarea>
+                            <div class="button">
+                                <button type="submit">
+                                    Submit
+                                </button>
+                            </div>
+                            
+                        </form>
                     </article>
                 </section>
-                <section class="update">
-                    <figure>
-                        <img src="./assets/icon1.png">
-                    </figure>
-                    <article>
-                        <h3>New Album</h3>
-                        <p>Petunia is OUT NOW.</p>
+            </section> 
+            <section class="charts">
+                <h2>Latest Collection</h2>
+                <section id="charts" class="grid_n3">
+                    <article class="chart">
+                        <figure>
+                            <img src="./assets/shops/merch01.jpeg">
+                        </figure>
+                        <figcaption>Merch 01</figcaption>
+                        <p></p>
+                    </article>
+                    <article class="chart">
+                        <figure>
+                            <img src="./assets/shops/merch02.jpeg">
+                        </figure>
+                        <figcaption>Merch 02</figcaption>
+                        <p></p>
+                    </article>
+                    <article class="chart">
+                        <figure>
+                            <img src="./assets/shops/merch03.jpeg">
+                        </figure>
+                        <figcaption>Merch 03</figcaption>
+                        <p></p>
+                    </article>
+                    <article class="chart">
+                        <figure>
+                            <img src="./assets/shops/merch04.jpeg">
+                        </figure>
+                        <figcaption>Merch 04</figcaption>
+                        <p></p>
+                    </article>
+                    <article class="chart">
+                        <figure>
+                            <img src="./assets/shops/merch03.jpeg">
+                        </figure>
+                        <figcaption>Merch 05</figcaption>
+                        <p></p>
                     </article>
                 </section>
-                <section class="update">
-                    <figure>
-                        <img src="./assets/icon1.png">
-                    </figure>
-                    <article>
-                        <h3>Favorite Playlist</h3>
-                        <p>Get artist's playlist recommendation here.</p>
-                    </article>
-                </section>
-            </section>      
+            </section>
         </section>      
     </main>
-    <script src="./index/index.js"></script>
+    <script src="./store/store.js"></script>
 </body>
 </html>

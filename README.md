@@ -4,7 +4,7 @@ week-2-gkorompis created by GitHub Classroom
 
 ## Welcome to my personal music page!
 
-This project showcases my passion for music and combines it with my web development skills. Here, you can explore my favorite songs, artists, and albums in a visually appealing and interactive manner. The web app is hosted by netlify on https://6491af69de2c4a0848777a90--scintillating-taiyaki-093a99.netlify.app/
+This project showcases my passion for music and combines it with my web development skills. Here, you can explore my favorite songs, artists, and albums in a visually appealing and interactive manner. The web app is hosted by netlify on https://6492e3934f22bc5072f8b578--scintillating-taiyaki-093a99.netlify.app/
 
 ## Technologies Used
 This project is built using the following technologies,
