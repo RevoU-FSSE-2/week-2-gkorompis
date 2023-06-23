@@ -117,5 +117,6 @@ const formHandler=(event)=>{
     const textarea = document.getElementById('feedback').value;
     payload['feedback'] = textarea;
     console.log(payload);
+    alert(`Thanks ${payload['form-signup-fullname']}!`)
     // alert(payload);
 }
