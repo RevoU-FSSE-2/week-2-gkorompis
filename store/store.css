@@ -201,7 +201,7 @@ nav > div {
 
 /* form sections */
 .forms {
-    height: 80vh;
+    height: 87vh;
     /* background-color: #decbb7; */
     color: var(--font-color-section);
     border-radius: 2px;
@@ -240,15 +240,34 @@ form > * {
     border-radius: 5px;
     /* background-color: black; */
 }
-
 .form:hover {
     /* height:vh; */
-    background-color: #c7c4c1cb;
+    background-color: #d8d7d6b5;
     width: 48vh;
     transition: 0.8s;
 }
+@media only screen and (max-width: 110vh){
+    .forms{
+        width: 100%;
+    }
+    .form {
+            /* height:vh; */
+            background-color: #d8d7d6b5;
+            width: 100%;
+            transition: 0.8s;
+        }
+    .form:hover {
+        /* height:vh; */
+        background-color: #d8d7d6b5;
+            width: 100%;
+            transition: 0.8s;
+    }
+}
 .form label {
-    transform: translateY(0)
+    transform: translateY(0);
+    /* width:15.1vh; */
+    /* height:1vh; */
+    /* background-color: black; */
 }
 .form input {
     border: 0;
@@ -272,7 +291,6 @@ select#form-signup-region{
     border: 0px;
     border-radius: 5px;
 }
-
 .radios{
     display: flex;
     flex-direction: column;

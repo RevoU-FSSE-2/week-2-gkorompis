@@ -2,9 +2,23 @@
 # week-2-gkorompis
 week-2-gkorompis created by GitHub Classroom
 
-## Welcome to my personal music page!
+## Application Overview
+This project showcases my passion for music and combines it with my web development skills. Here, you can explore my original songs, and albums in a visually appealing and interactive manner. The web app is hosted by netlify on [Personal Music Page.](https://6493d89c0974752149105937--scintillating-taiyaki-093a99.netlify.app/). This application is designed to be fully responsive and supports multiple dimensions, including desktop and mobile phones. It is built using responsive design techniques and follows best practices to ensure an optimal user experience across various devices.
 
-This project showcases my passion for music and combines it with my web development skills. Here, you can explore my favorite songs, artists, and albums in a visually appealing and interactive manner. The web app is hosted by netlify on https://6492e3934f22bc5072f8b578--scintillating-taiyaki-093a99.netlify.app/
+## Features
+
+- Responsive layout that adapts to different screen sizes and orientations
+- Optimized for desktop browsing
+- Compatible with a wide range of mobile devices, including smartphones and tablets
+
+## Compatibility
+
+The application has been tested and verified to work seamlessly on the following platforms:
+
+- Desktop browsers (Chrome, Firefox, Safari, etc.)
+- Mobile devices (iOS, Android) - across different screen sizes and resolutions
+
+Please note that while the application strives to provide a consistent experience across devices, some features or visual elements may vary slightly depending on the screen size and capabilities of the device being used.
 
 ## Technologies Used
 This project is built using the following technologies,
@@ -18,14 +32,29 @@ Album Showcase: Dive into my favorite albums showcased in an attractive and inte
 ## Setup and Usage
 
 To set up this project locally and explore it on your machine, follow these steps,
-Clone the repository:
-git clone https://github.com/RevoU-FSSE-2/week-2-gkorompis.git Navigate to the project directory:
-cd week-2-gkorompis and open the index.html file in your preferred web browser.
-Browse the music page and interact with the different components to explore songs, artists, and albums.
+### Clone the repository:
+```
+git clone https://github.com/RevoU-FSSE-2/week-2-gkorompis.git
+```
+### Navigate to the project directory:
+```
+cd week-2-gkorompis
+open index.html
+```
+you can open the index.html file in your preferred web browser and then browse the music page and interact with the different components to explore songs, and albums.
 
+## Screenshots
+### Homepage Desktop View
+<img width="904" alt="homepage" src="https://github.com/RevoU-FSSE-2/week-2-gkorompis/assets/52250424/c698f996-322b-46f6-b75d-25cf09e4fd86">
 
-## Contributing
-Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please feel free to open an issue or submit a pull request.
+### Homepage Mobile View
+<img width="500" alt="homepage mobile" src="https://github.com/RevoU-FSSE-2/week-2-gkorompis/assets/52250424/8471de66-f00e-4f84-b78b-ab5c0026dc07">
+
+### Homepage Mobile Burger Navbar
+<img width="499" alt="mobile burger icon" src="https://github.com/RevoU-FSSE-2/week-2-gkorompis/assets/52250424/80f09f2c-ed26-4fc4-b645-4b4ff9cc28ef">
+
+### Store Page Desktop View
+<img width="921" alt="store page desktop view" src="https://github.com/RevoU-FSSE-2/week-2-gkorompis/assets/52250424/1549fbda-04ca-4084-ac56-d3fda3681e66">
 
 ## Contact 
 If you have any questions or want to get in touch, you can reach me at grkorompis@gmail.com
