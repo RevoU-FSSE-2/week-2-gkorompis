@@ -3,7 +3,7 @@
 week-2-gkorompis created by GitHub Classroom
 
 ## Application Overview
-This project showcases my passion for music and combines it with my web development skills. Here, you can explore my original songs, and albums in a visually appealing and interactive manner. The web app is hosted by netlify on [Personal Music Page.](https://6493d89c0974752149105937--scintillating-taiyaki-093a99.netlify.app/). This application is designed to be fully responsive and supports multiple dimensions, including desktop and mobile phones. It is built using responsive design techniques and follows best practices to ensure an optimal user experience across various devices.
+This project showcases my passion for music and combines it with my web development skills. Here, you can explore my original songs, and albums in a visually appealing and interactive manner. The web app is hosted by netlify on [Personal Music Page.](https://6495cf87cfa9c855e49e7e9e--scintillating-taiyaki-093a99.netlify.app/). This application is designed to be fully responsive and supports multiple dimensions, including desktop and mobile phones. It is built using responsive design techniques and follows best practices to ensure an optimal user experience across various devices.
 
 ## Features
 
